@@ -15,7 +15,7 @@ X-SOCIALPROFILE;TYPE=youtube:https://www.youtube.com/channel/UC1mF4AcXJkvgkTQb0g
 URL;TYPE=Telegram:https://t.me/@computingclub
 URL;TYPE=GitHub:https://github.com/egorlem
 REV:2023-10-05T13:13:11.616Z
-NOTE:Stack технологий: TypeScript, Aollo Client / Server, React / Redux, Vue, Next, NestJS, Mongo, SQL, Docker
+NOTE:Stack технологий: TypeScript, Apollo Client / Server, React / Redux, Vue, Next, NestJS, Mongo, SQL, Docker
 ORG;CHARSET=utf-8:Elementaree
 TITLE;CHARSET=utf-8:Senior JavaScript developer
 END:VCARD
