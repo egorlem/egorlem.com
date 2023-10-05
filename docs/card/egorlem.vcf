@@ -2,20 +2,19 @@ BEGIN:VCARD
 VERSION:3.0
 FN;CHARSET=UTF-8:Егор Лем
 N;CHARSET=UTF-8:;Егор;Лем
-NICKNAME;CHARSET=UTF-8:Guezwhoz
+NICKNAME;CHARSET=UTF-8:guesswhoz
 GENDER:M
-BDAY:19871019
-EMAIL;INTERNET;HOME:guezwhoz@gmail.com
+ORG;CHARSET=utf-8:Elementaree
+TITLE;CHARSET=utf-8:Senior JavaScript Developer
 TEL;TYPE=CELL:+79629942180
-ROLE;CHARSET=UTF-8:Fullstack JavaScript developer
+EMAIL;INTERNET;HOME:guezwhoz@gmail.com
 URL;CHARSET=UTF-8:https://egorlem.com
+URL;TYPE=GitHub:https://github.com/egorlem
+URL;TYPE=Telegram:https://t.me/@computingclub
 URL;WORK:https://elementaree.ru
 X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/egorlem
 X-SOCIALPROFILE;TYPE=youtube:https://www.youtube.com/channel/UC1mF4AcXJkvgkTQb0gN9kvw
-URL;TYPE=Telegram:https://t.me/@computingclub
-URL;TYPE=GitHub:https://github.com/egorlem
+BDAY:19871018
 REV:2023-10-05T13:13:11.616Z
-NOTE:Stack технологий: TypeScript, Apollo Client / Server, React / Redux, Vue, Next, NestJS, Mongo, SQL, Docker
-ORG;CHARSET=utf-8:Elementaree
-TITLE;CHARSET=utf-8:Senior JavaScript developer
+NOTE:Stack технологий: TypeScript, GraphQL, Apollo Client / Server, React / Redux, Vue, Next, NestJS, Mongo, SQL, Docker
 END:VCARD
