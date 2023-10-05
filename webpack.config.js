@@ -90,7 +90,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(jpe?g|svg|png|gif|ico|eot|ttf|woff2?)(\?v=\d+\.\d+\.\d+)?$/i,
+        test: /\.(jpe?g|svg|png|gif|ico|eot|ttf|woff2|vcf?)(\?v=\d+\.\d+\.\d+)?$/i,
         type: 'asset/resource',
       },
     ],
