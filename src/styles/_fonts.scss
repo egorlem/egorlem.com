@@ -1,0 +1,22 @@
+// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url(../public/fonts/JetBrainsMonoNL-ExtraLight.ttf) format('ttf'),
+    url(../public/fonts/JetBrainsMono-ExtraLight.woff2) format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url(../public/fonts/JetBrainsMono-Regular.ttf) format('ttf'),
+    url(../public/fonts/JetBrainsMono-Regular.woff2) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+// font-family: 'IBM Plex Mono', monospace;
