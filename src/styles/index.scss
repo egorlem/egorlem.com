@@ -1,0 +1,65 @@
+@import './_fonts';
+@import './_reset';
+
+body {
+  background-color: #1c1c1c;
+}
+
+.no-select {
+  // NO-SELECT
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.soon {
+  font-size: 36px;
+  font-family: "JetBrainsMono";
+  font-weight: 200;
+  text-align: center;
+  padding-top: 8vw;
+  padding-bottom: 12px;
+  color: #656566;
+  letter-spacing: -0.4px;
+}
+
+.header {
+  padding-top: 30px;
+  border-bottom: 1px solid #303030;
+}
+
+.title {
+  font-size: 16px;
+  font-family: "JetBrainsMono";
+  font-weight: 200;
+  text-align: center;
+  padding-top: 8vw;
+  padding-bottom: 12px;
+  color: #dadada;
+  letter-spacing: -0.4px;
+
+  // NO-SELECT
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.paragraph-content {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-family: "JetBrainsMono";
+  font-weight: 200;
+  text-align: center;
+  color: #dadada;
+  line-height: 115%;
+  letter-spacing: -0.2px;
+}
+
+a {
+  color: #5fafd7;
+  text-decoration: underline,
+}
