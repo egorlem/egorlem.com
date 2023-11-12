@@ -4,11 +4,12 @@ const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   mode: 'development',
-  entry: { 
-    index: './index.js', 
+  entry: {
+    index: './index.js',
     // stats: './stats.js' 
   },
   output: {
@@ -16,6 +17,7 @@ module.exports = {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'docs'),
   },
+  // presets: ['@babel/preset-env', '@babel/preset-react'],
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
@@ -24,7 +26,7 @@ module.exports = {
     new HTMLWebpackPlugin({
       filename: 'index.html',
       template: path.resolve(__dirname, 'src', 'index.html'),
-      
+
       // 'src/index.html',
       //inject: 'head',
     }),
@@ -42,14 +44,25 @@ module.exports = {
   ],
   module: {
     rules: [
-        {
-          test: /\.(png|jpe?g|gif)$/i,
-          use: [
-            {
-              loader: 'url-loader',
-            },
-          ],
+
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/, //don't test node_modules folder
+        use: {
+          loader: "babel-loader",
         },
+        resolve: {
+          extensions: [".js", ".jsx"],
+        },
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+          },
+        ],
+      },
       // {
       //   test: /\.(woff|woff2)$/,
       //   use: [
