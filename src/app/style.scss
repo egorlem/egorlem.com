@@ -1,0 +1,11 @@
+.buttonKey {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 6px;
+  &:focus {
+    background-color: red;
+  }
+  // &:focus-visible {
+  //   background-color: red;
+  // }
+}
