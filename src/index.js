@@ -47,4 +47,14 @@ import './styles/index.scss';
 //   </React.StrictMode>
 // )
 
+// const b = document.getElementById('key');
+
+// b.addEventListener('click', () => {
+//   navigator.share({
+//     title: "MDN",
+//     text: "Learn web development on MDN!",
+//     url: "https://developer.mozilla.org",
+//   });
+// })
+
 
