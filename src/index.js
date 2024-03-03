@@ -1,11 +1,13 @@
 'use strict';
 /* LIBS */
-import React from "react";
-import ReactDOM from "react-dom/client";
-/* COMPOENTS */
-import { App } from './app';
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// /* COMPOENTS */
+// import { App } from './app';
 /* STYLES */
 import './styles/index.scss';
+
+console.log('run')
 
 // if( window.matchMedia('(prefers-color-scheme: dark)').matches )
 // {
