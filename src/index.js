@@ -7,8 +7,6 @@
 /* STYLES */
 import './styles/index.scss';
 
-console.log('run')
-
 // if( window.matchMedia('(prefers-color-scheme: dark)').matches )
 // {
 //     scheme.innerHTML = 'В ОС установлена тёмная тема';
