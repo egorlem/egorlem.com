@@ -1,25 +1,36 @@
 import { defineConfig } from 'vite';
+import path from 'path'
 
-// PLUGINS
-// import { viteStaticCopy } from 'vite-plugin-static-copy'
+/* PLUGINS */ 
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
+/* SOURCE =================================================================== */ 
+const STATIC_SOURCE = [
+  {
+    src: path.resolve(__dirname, './src/card') + '/[!.]*',
+    dest: "card",
+  },
+  {
+    src: path.resolve(__dirname, './src/seo') + '/[!.]*',
+    dest: ".",
+  },
+];
+
+/* CONFIG =================================================================== */ 
 export default defineConfig({
   root: 'src',
+
   build: {
     outDir: '../docs',
+    emptyOutDir: true,
     copyPublicDir: false,
   },
   server: {
     port: 3000
   },
-  // plugins: [
-  //   viteStaticCopy({
-  //     targets: [
-  //       {
-  //         src: 'src/test.txt',
-  //         dest: '/'
-  //       }
-  //     ]
-  //   })
-  // ]
+  plugins: [
+    viteStaticCopy({
+      targets: STATIC_SOURCE
+    }),
+  ]
 });
