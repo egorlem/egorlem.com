@@ -19,7 +19,8 @@ const STATIC_SOURCE = [
 /* CONFIG =================================================================== */ 
 export default defineConfig({
   root: 'src',
-
+  envDir: path.resolve(__dirname),
+  envPrefix: 'GWZ_',
   build: {
     outDir: '../docs',
     emptyOutDir: true,
