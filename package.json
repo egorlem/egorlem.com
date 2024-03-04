@@ -6,7 +6,8 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite serve",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite serve"
   },
   "repository": {
     "type": "git",
