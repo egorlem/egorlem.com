@@ -7,12 +7,6 @@
 /* STYLES */
 import './styles/index.scss';
 
-<<<<<<< Updated upstream
-console.log('run')
-=======
-console.log(import.meta.env); 
->>>>>>> Stashed changes
-
 // if( window.matchMedia('(prefers-color-scheme: dark)').matches )
 // {
 //     scheme.innerHTML = 'В ОС установлена тёмная тема';
