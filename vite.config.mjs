@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { defineConfig } from 'vite';
 import path from 'path'
 
@@ -27,7 +28,8 @@ export default defineConfig({
     copyPublicDir: false,
   },
   server: {
-    port: 3000
+    port: 3000,
+    host: true,
   },
   plugins: [
     viteStaticCopy({

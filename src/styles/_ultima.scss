@@ -1,0 +1,31 @@
+/*
+  ultima color schema https://github.com/egorlem/ultima.workspace
+*/
+
+:root {
+  --seagreen: #5fffaf;
+  --deepgreen: #005f5f;
+  --gray100: #1c1c1c;
+  --gray80: #3a3a3a;
+  --gray75: #303030;
+  --gray50: #8a8a8a;
+  --gray25: #9e9e9e;
+  /* BASE COLOR */
+  --black: #080808;
+  --red: #ff5f5f;
+  --green: #87d7af;
+  --yellow: #d7d787;
+  --blue: #5fafd7;
+  --magenta: #afafff;
+  --cyan: #5fd7d7;
+  --white: #dadada;
+  /* BASE COLOR DIM HUE */
+  --dim-black: #8a8a8a;
+  --dim-red: #d75f5f;
+  --dim-green: #afd7af;
+  --dim-yellow: #d7d7af;
+  --dim-blue: #87afd7;
+  --dim-magenta: #afafd7;
+  --dim-cyan: #87d7d7;
+  --dim-white: #eeeeee;
+}
